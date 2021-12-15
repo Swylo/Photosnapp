@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import Invite from "./Invite";
 import { ActiveInviteContext } from "../contexts/invite.context";
-import { useContext } from "react/cjs/react.development";
 
 function InviteBackdrop() {
   const { isActive } = useContext(ActiveInviteContext);
